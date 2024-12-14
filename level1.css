@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+span{
+    color: #445552;
+}
+
+header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #DAF0EE;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #776472;
+}
+
+header p {
+    font-size: 18px;
+    color: #511C29;
+    font-family: "Raleway", sans-serif;
+}
+
+#features {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #e0e0e0;
+}
+
+.feature {
+    display: inline-block;
+    width: 35%;
+    height: auto;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.feature:hover{
+    box-decoration-break: clone;
+    box-shadow: 5px 5px 5px black;
+
+}
+.feature img {
+    width: 100px;
+    height: 100px;
+}
+
+#signup{
+    text-align: center;
+    padding: 50px 0;
+    background-color: #A2A3BB;
+}
+
+#signup .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#signup .btn:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
